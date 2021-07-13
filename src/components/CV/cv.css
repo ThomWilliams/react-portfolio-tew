@@ -1,0 +1,24 @@
+.content-container {
+    min-height: calc(100vh - 34px);
+    background: #f3e5f5;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+  
+
+p {
+    text-align: center;
+    font-size: 14px;
+}
+
+a {
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 5px;
+    line-height: 3;
+  }
+  

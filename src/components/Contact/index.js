@@ -1,5 +1,5 @@
 import React from 'react';
-import './project.css'
+import './contact.css'
 
 function Project() {
   const message = 'This is the projects Component';
