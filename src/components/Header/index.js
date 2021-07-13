@@ -1,11 +1,12 @@
 import React from 'react';
+import './header.css';
 
 function Header() {
   const message = 'This is the Header';
   return (
-    <div className="container">
+    <header className="header">
       <h1>{message}</h1>
-    </div>
+    </header>
   );
 }
 

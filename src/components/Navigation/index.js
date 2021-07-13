@@ -1,10 +1,11 @@
 import React from 'react';
+import './navigation.css'
 
 function Navigation() {
   const linkStyle = { border: '1px black', padding: '5px' };
 
   return (
-    <nav className="main-header-menu">
+    <nav className="navbar">
       <section
         style={{
           display: 'flex',

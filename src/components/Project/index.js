@@ -1,9 +1,10 @@
 import React from 'react';
+import './project.css'
 
 function Project() {
   const message = 'This is the projects Component';
   return (
-    <div className="container">
+    <div className="content-container">
       <h3>{message}</h3>
     </div>
   );
