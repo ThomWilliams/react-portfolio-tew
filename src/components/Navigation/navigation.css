@@ -1,6 +1,7 @@
 .navbar {
-    background: #6a1b9a;
+    background: black;
     height: 60px;
+    flex-direction: row-reverse;
     
   }
   

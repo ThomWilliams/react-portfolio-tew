@@ -1,5 +1,5 @@
 .header {
-    background: #b71775;
+    background-color: rgb(218, 133, 14);
     height: 200px;
   }
   
@@ -9,5 +9,14 @@
     text-align: center;
     color: white;
     font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .header h2 {
+    margin: 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin: 12px;
   }
   
