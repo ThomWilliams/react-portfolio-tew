@@ -1,5 +1,6 @@
 import React from 'react';
-import './project.css'
+import './portfolio.css';
+import Display from './display.js';
 
 function Project() {
   const message = 'This is the projects Component';
