@@ -3,13 +3,16 @@ import './portfolio.css';
 import Index from './index.js';
 import Images from '../images';
 
-const poseIt = '../images/'
-const HammeredHorror = '../images/'
+const poseIt = '../images/pose-it.png';
+const HammeredHorror = '../images/hammered-horror.png';
+const workDay = '../images/work-day-scheduler.png';
+const codingQuiz = '../images/coding-quiz.png'
+const noteTaker = '../images/note-taker.png'
 
 const portfolios = [
   {
     name: 'Pose-It App',
-    description: 'A fashion App',
+    description: 'A fashion sharing App',
     github:'https://github.com/itsraulsanz/pose-it-app',
     deployedLink:'https://pose-it-app.herokuapp.com/',
     image: poseIt,
@@ -22,25 +25,25 @@ const portfolios = [
     image: HammeredHorror,
   },
   {
-    name: 'Pose-It App',
-    description: 'The best boy',
+    name: 'Work Day Scheduler',
+    description: 'A working day management app',
     github:'https://github.com/itsraulsanz/pose-it-app',
-    deployedLink:'https://pose-it-app.herokuapp.com/',
-    image: poseIt,
+    deployedLink:'https://thomwilliams.github.io/work-day-scheduler-tew/',
+    image: workDay,
   },
   {
-    name: 'Pose-It App',
-    description: 'The best boy',
-    github:'https://github.com/itsraulsanz/pose-it-app',
-    deployedLink:'https://pose-it-app.herokuapp.com/',
-    image: poseIt,
+    name: 'Note Taker App',
+    description: 'An diary keeping reminder app',
+    github:'https://github.com/ThomWilliams/note-taker-tew',
+    deployedLink:'https://radiant-meadow-11834.herokuapp.com/',
+    image: noteTaker,
   },
   {
-    name: 'Pose-It App',
-    description: 'The best boy',
-    github:'https://github.com/itsraulsanz/pose-it-app',
-    deployedLink:'https://pose-it-app.herokuapp.com/',
-    image: poseIt,
+    name: 'Coding Quiz',
+    description: 'A javascript coding quiz',
+    github:'https://github.com/ThomWilliams/web-apis-code-quiz-tew',
+    deployedLink:'https://thomwilliams.github.io/web-apis-code-quiz-tew/',
+    image: codingQuiz,
   },
 ];
 
