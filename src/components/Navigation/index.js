@@ -1,6 +1,7 @@
 import React from 'react';
 import './navigation.css'
 
+
 function Navigation() {
   const linkStyle = { border: '1px black', padding: '5px' };
 
@@ -22,14 +23,15 @@ function Navigation() {
           <a href="/portfolio">Portfolio</a>
         </div>
         <div style={linkStyle}>
-          <a href="#">Contact</a>
+          <a href="/contact">Contact</a>
         </div>
         <div style={linkStyle}>
-          <a href="#">CV</a>
+          <a href="/cv">CV</a>
         </div>
       </section>
     </nav>
   );
+
 }
 
 export default Navigation;

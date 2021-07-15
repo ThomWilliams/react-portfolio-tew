@@ -1,5 +1,10 @@
 import React from 'react';
-import './project.css'
+import './pagecontent.css'; 
+import Portfolio from "./components/Portfolio";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import CV from "./components/CV";
+import PageContent from "./components/PageContent";
 
 function Project() {
   const message = 'This is the projects Component';
