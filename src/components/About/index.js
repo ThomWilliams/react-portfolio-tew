@@ -9,11 +9,13 @@ function AboutMe() {
   return (
     <section className="content-container">
         <h2>{header}</h2>
-        <img
-          className="card-img-top"
+        <div className="container">
+        <img 
+          className="image-profile"
           src={`${profilePic}`}
           alt="Profile Picture"
         />
+    </div>
       <p>{message}</p>
     </section>
   );
