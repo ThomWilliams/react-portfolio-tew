@@ -3,12 +3,10 @@ import './portfolio.css';
 import Display from './display.js';
 
 function Portfolio() {
-  const message = 'This is the Portfolios Component';
   return (
     <section className="content-container">
-      <h2>{message}</h2>
+          <h2>Examples of Thom's Work:</h2>
       <Display />
-      <div>Card</div>
     </section>
   );
 }

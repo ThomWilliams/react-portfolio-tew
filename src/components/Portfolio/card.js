@@ -6,6 +6,7 @@ import './portfolio.css';
 export default function Card(props) {
   const cardStyle = {
     width: '18rem',
+    margin: '1rem',
   };
   return (
     <div>

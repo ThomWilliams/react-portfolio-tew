@@ -1,15 +1,12 @@
 import React from 'react';
 import './portfolio.css';
 import Card from './card';
-import codeQuiz from "../../components/images/coding-quiz.jpg"
-// import Index from '../image';
-// import Images from '../images';
+import codeQuiz from "../../components/images/coding-quiz.jpg";
+import poseIt from "../../components/images/pose-it.jpg";
+import HammeredHorror from "../../components/images/hammered-horror.jpg";
+import workDay from "../../components/images/work-day-scheduler.jpg";
+import noteTaker from "../../components/images/note-taker.jpg";
 
-const poseIt = '../images/pose-it.png';
-const HammeredHorror = '../images/hammered-horror.png';
-const workDay = '../images/work-day-scheduler.png';
-const codingQuiz = '../images/coding-quiz.png'
-const noteTaker = '../images/note-taker.png'
 
 const portfolios = [
   {
@@ -52,7 +49,6 @@ const portfolios = [
 export default function Display() {
   return (
     <div>
-      <h1>Dosplay</h1>
       {portfolios.map((portfolio) => (
         <Card name={portfolio.name} description={portfolio.description} github={portfolio.github} deployedLink={portfolio.deployedLink} image={portfolio.image} key={portfolio.id} />
       ))}
