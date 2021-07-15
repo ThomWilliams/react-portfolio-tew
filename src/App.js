@@ -8,14 +8,13 @@ import Portfolio from "./components/Portfolio";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import CV from "./components/CV";
-// import PageContent from "./components/PageContent";
 
 function App() {
   return (
     <div className="react-portfolio-tew">
 
       <Navigation />
-      
+
       <Header />
 
       <Router>
@@ -40,7 +39,6 @@ function App() {
       
 
      <Footer />
-
     </div>
   );
 }

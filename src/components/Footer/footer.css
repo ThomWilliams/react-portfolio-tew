@@ -1,30 +1,34 @@
-.footer {
+footer {
   background: #080808;
-  height: 50px;
+  height: 30px;
   position: relative;
   left: 0;
+  top: 0;
   bottom: 0;
 }
 
 .footer h4 {
   margin: 0;
-  padding: 5px;
+  padding: 2px;
   text-align: center;
   color: white;
-  font-size: 1rem;
+  font-size: 0.7rem;
+  background: #080808;
 }
 
 .footer img {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
     width: 40px;
     height: 40px;
     border-style:groove;
     border-color: white;
+    background: #080808;
 }
 
 .image-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #080808;
  }

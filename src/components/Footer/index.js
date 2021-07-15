@@ -4,9 +4,9 @@ import linkedinLogo from "../images/linked_in.png";
 import githubLogo from "../images/GitHub-Mark.png";
 
 function Footer() {
-  const message = "The Footer";
+  // const message = "The Footer";
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="image-container">
         <a href="https://www.linkedin.com/in/thom-williams-624408205/">
           <img src={linkedinLogo} alt="Logo" />
@@ -15,7 +15,8 @@ function Footer() {
           <img src={githubLogo} alt="Logo" />
         </a>
       </div>
-    </div>
+      <h4>©Thom Williams</h4>
+    </footer>
   );
 }
 
