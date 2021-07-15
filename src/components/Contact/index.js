@@ -32,7 +32,7 @@ function Form() {
     e.preventDefault();
 
     // Alert the user their first and last name, clear the inputs
-    alert(`Hello ${firstName} ${lastName}`);
+    alert(`Thanks for your email ${firstName} ${lastName}, Thom Williams will get right back to you...`);
     setFirstName('');
     setLastName('');
     setEmail('');

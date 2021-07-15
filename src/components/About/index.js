@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.css'
+import profilePic from '../images/thom_barnard.jpeg'
 
 function AboutMe() {
   const header = 'About Me';
@@ -8,6 +9,11 @@ function AboutMe() {
   return (
     <section className="content-container">
         <h2>{header}</h2>
+        <img
+          className="card-img-top"
+          src={`${profilePic}`}
+          alt="Profile Picture"
+        />
       <p>{message}</p>
     </section>
   );
