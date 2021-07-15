@@ -7,6 +7,7 @@ function Portfolio() {
   return (
     <section className="content-container">
       <h2>{message}</h2>
+      <Display />
       <div>Card</div>
     </section>
   );

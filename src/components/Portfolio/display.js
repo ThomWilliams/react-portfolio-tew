@@ -1,7 +1,9 @@
 import React from 'react';
 import './portfolio.css';
-import Index from './index.js';
-import Images from '../images';
+import Card from './card';
+import codeQuiz from "../../components/images/coding-quiz.jpg"
+// import Index from '../image';
+// import Images from '../images';
 
 const poseIt = '../images/pose-it.png';
 const HammeredHorror = '../images/hammered-horror.png';
@@ -43,13 +45,14 @@ const portfolios = [
     description: 'A javascript coding quiz',
     github:'https://github.com/ThomWilliams/web-apis-code-quiz-tew',
     deployedLink:'https://thomwilliams.github.io/web-apis-code-quiz-tew/',
-    image: codingQuiz,
+    image: codeQuiz,
   },
 ];
 
 export default function Display() {
   return (
     <div>
+      <h1>Dosplay</h1>
       {portfolios.map((portfolio) => (
         <Card name={portfolio.name} description={portfolio.description} github={portfolio.github} deployedLink={portfolio.deployedLink} image={portfolio.image} key={portfolio.id} />
       ))}

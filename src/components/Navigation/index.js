@@ -16,10 +16,10 @@ function Navigation() {
         }}
       >
         <div style={linkStyle}>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </div>
         <div style={linkStyle}>
-          <a href="#">Portfolio</a>
+          <a href="/portfolio">Portfolio</a>
         </div>
         <div style={linkStyle}>
           <a href="#">Contact</a>

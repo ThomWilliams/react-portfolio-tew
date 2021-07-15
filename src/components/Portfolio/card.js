@@ -1,6 +1,6 @@
 import React from 'react';
 import './portfolio.css';
-import Display from './display.js';
+// import Display from './display.js';
 
 
 export default function Card(props) {
@@ -12,7 +12,7 @@ export default function Card(props) {
       <div className="card" style={cardStyle}>
         <img
           className="card-img-top"
-          src={`${image}`}
+          src={`${props.image}`}
           alt="Card cap"
         />
         <div className="card-body">
