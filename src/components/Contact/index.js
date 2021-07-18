@@ -1,49 +1,72 @@
-import React, { useState } from 'react';
-import './contact.css'
-
+import React, { useState } from "react";
+import "./contact.css";
+import { checkFirstName, checkLastName, checkMessage, validateEmail } from '../../utils/helpers';
 
 function Form() {
-  // Here we set two state variables for firstName and lastName using `useState`
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (e) => {
-    // Getting the value and name of the input which triggered the change
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
-
-    // Based on the input type, we set the state of either email, username, and password
-    if (inputType === 'email') {
+    
+    
+    if (inputType === "email") {
       setEmail(inputValue);
-    } else if (inputType === 'firstName') {
+    } else if (inputType === "firstName") {
       setFirstName(inputValue);
-    }  else if (inputType === 'lastName') {
-        setLastName(inputValue);
+    } else if (inputType === "lastName") {
+      setLastName(inputValue);
     } else {
       setMessage(inputValue);
     }
   };
 
   const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
+
+    if (!validateEmail(email)) {
+      setErrorMessage('Please enter correct email address');
+      return alert('Please enter a valid email address')
+      
+    }
+
+    if (!checkFirstName(firstName)) {
+      setErrorMessage(
+        `Please enter a valid first name`
+      );
+      return;
+    }
+    if (!checkLastName(lastName)) {
+      setErrorMessage(
+        `Please enter a valid last name`
+      );
+      return;
+    }
+    if (!checkMessage(message)) {
+      setErrorMessage(
+        `Please enter a valid message`
+      );
+      return;
+    }
     // Alert the user their first and last name, clear the inputs
-    alert(`Thanks for your email ${firstName} ${lastName}, Thom Williams will get right back to you...`);
-    setFirstName('');
-    setLastName('');
-    setEmail('');
-    setMessage('');
+    alert(
+      `Thanks for your email ${firstName} ${lastName}, Thom Williams will get right back to you...`
+    );
+    setFirstName("");
+    setLastName("");
+    setEmail("");
+    setMessage("");
   };
 
   return (
-    <div>
-      <p>
-        Contact Thom Williams by filling out the following form:
-      </p>
+    <section className="content-container">
+      <h4>Contact Thom Williams via the following form:</h4>
       <form className="form">
         <input
           value={firstName}
@@ -77,9 +100,13 @@ function Form() {
           Submit
         </button>
       </form>
-    </div>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
+    </section>
   );
 }
 
 export default Form;
-

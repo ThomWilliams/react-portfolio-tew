@@ -10,8 +10,7 @@ function CV() {
       <h2>{header}</h2>
       <p>
         Through the University of Manchester Coding Bootcamp and elsewhere in my
-        career, I have gained a variety of front-end and back-end skills and
-        experience including:
+        career, I have gained a variety of front-end and back-end skills, plus other relevant experience including:
         <ul>
           <li>
             <strong>Front-end:</strong> REACT, HTML, CSS, Javascript (JS), Markdown

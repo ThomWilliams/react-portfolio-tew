@@ -1,6 +1,6 @@
 .content-container {
     min-height: calc(100vh - 34px);
-    background: #f3e5f5;
+    background: #f3cf7b;
     padding: 20px;
 }
 
@@ -10,11 +10,20 @@ h2 {
   
 
 p {
-   font-size: 14px;
+   font-size: 18px;
+   line-height: 10vh;
+   font-family: helvetica;
+}
+
+.error-text {
+  color: red;
+  font-style: italic;
 }
 
 .form {
     margin: 20px;
+    background: #f3cf7b;
+    font-family: helvetica;
   }
   
   .form input {
