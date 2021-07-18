@@ -5,7 +5,9 @@ import './navigation.css'
 function Navigation() {
   const linkStyle = { border: '1px black', padding: '5px' };
 
+  
   return (
+    
     <nav className="navbar">
       <section
         style={{

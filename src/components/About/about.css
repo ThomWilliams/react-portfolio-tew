@@ -12,9 +12,19 @@
     background: #f3cf7b;
 }
 
+
+.about-container {
+    display: 'flex';
+    font-family: 'helvetica';
+    flex-direction: 'row';
+    align-items: 'flex-end';
+    justify-content: 'flex-end';
+    }
+    
+
 .image-profile {
-    max-height: 250vh;
-    max-width: 100vh;
+    max-height: 200vh;
+    max-width: 75vh;
     margin: 10px;
     padding: 4px;
     display: flex;
@@ -27,12 +37,15 @@
 
 h2 {
     text-align: center;
+    padding: 5px;
 }
   
 
-p {
+.about-text p {
     text-align: center;
     font-size: 14px;
     margin-bottom: 0;
-    padding: 0;
+    padding: 4px;
+    line-height: 3vh;
 }
+

@@ -2,6 +2,7 @@
     min-height: calc(100vh - 34px);
     background: #f3cf7b;
     padding: 20px;
+    align-items: center;
 }
 
 h2 {
@@ -13,3 +14,15 @@ h5 {
     text-align: center;
 }
   
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+
+  .grid-item {
+    display: flex;
+    flex-direction: row;
+  }

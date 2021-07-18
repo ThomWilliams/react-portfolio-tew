@@ -10,7 +10,7 @@ function CV() {
       <h2>{header}</h2>
       <p>
         Through the University of Manchester Coding Bootcamp and elsewhere in my
-        career, I have gained a variety of front-end and back-end skills, plus other relevant experience including:
+        career, I have gained a variety of front-end and back-end skills, plus other relevant experience including:</p>
         <ul>
           <li>
             <strong>Front-end:</strong> REACT, HTML, CSS, Javascript (JS), Markdown
@@ -28,7 +28,6 @@ function CV() {
             editing software including Final Cut Pro.
           </li>
         </ul>
-      </p>
       <p>{message}</p>
       <iframe src="https://drive.google.com/file/d/1UW2P2EesEGoN6giyZk3Ia6yO8N0Xvy4C/preview" width="640" height="480" allow="autoplay"></iframe>
       <h2><a href="https://drive.google.com/file/d/1UW2P2EesEGoN6giyZk3Ia6yO8N0Xvy4C/view?usp=sharing">

@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import CV from "./components/CV";
+import "./app.css";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
      <Route path="/contact" component={Contact} />
      </Router>
 
+    
      <Router>
       <Route path="/" component={About} />
      </Router>

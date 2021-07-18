@@ -12,18 +12,20 @@ h2 {
 p {
     font-size: 14px;
     font-family: Helvetica;
-    line-height: 3vh;
+    line-height: 5vh;
     text-align: left;
+    padding: 5px;
 }
 
 ul {
     margin-top: 5px;
+    padding: 5px;
 }
 li {
     font-size: 14px;
     font-family: Helvetica;
     line-height: 4vh;
-
+    padding: 5px;
 }
 
 a {

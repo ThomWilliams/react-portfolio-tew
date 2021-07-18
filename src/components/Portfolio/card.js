@@ -1,41 +1,48 @@
 import React from 'react';
 import './portfolio.css';
-// import Display from './display.js';
+import { Row, Col, Card } from 'react-bootstrap';
 
 
-export default function Card(props) {
+export default function Cards(props) {
   const cardStyle = {
-    width: '18rem',
+    width: '15rem',
     margin: '1rem',
+    marginBottom: '3rem',
+    padding: '5px',
+
   };
+
   return (
-    <div>
-      <div className="card" style={cardStyle}>
-        <img
-          className="card-img-top"
-          src={`${props.image}`}
-          alt="Card cap"
-        />
-        <div className="card-body">
-          <h5 className="card-title">{props.name}</h5>
-          <p className="card-text">{props.description}</p>
-         
+    <Row xs={1} md={1} lg={2} className="g-4">
+  {Array.from({ length: 1 }).map((_, idx) => (
+    <Col>
+      <Card className="card">
+        <Card.Img variant="top" src={`${props.image}`} alt="Card cap" />
+        <Card.Body>
+          <Card.Title>{props.name}</Card.Title>
+          <Card.Text>
+          {props.description}
+          </Card.Text>
           <a href={`${props.deployedLink}`} className="btn btn-primary">
             Deployed Link 
           </a>
           <a href={`${props.github}`} className="btn btn-secondary">
             GitHub 
           </a>
-        </div>
-      </div>
-    </div>
+        </Card.Body>
+      </Card>
+    </Col>
+  ))}
+</Row>
+
+   
   );
 }
 
 // SEE GRID CARDS - https://react-bootstrap.github.io/components/cards/
 // <Row xs={1} md={2} className="g-4">
 //   {Array.from({ length: 4 }).map((_, idx) => (
-//     <Col>
+//     <Column>
 //       <Card>
 //         <Card.Img variant="top" src="holder.js/100px160" />
 //         <Card.Body>

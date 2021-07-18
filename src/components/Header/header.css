@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
 .header {
     background-color: rgb(218, 133, 14);
-    height: 200px;
+    /* height: 200px; */
   }
   
   .header h1 {
@@ -8,8 +11,9 @@
     padding-top: 75px;
     text-align: center;
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
+    font-family: 'Bungee Shade', cursive;
   }
   
   .header h2 {
