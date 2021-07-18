@@ -1,6 +1,6 @@
 .content-container {
     /* min-height: calc(100vh - 34px); */
-    background: #f3e5f5;
+    background: #f3cf7b;
     padding: 20px;
     margin-bottom: 0;
     padding: 0;
@@ -9,7 +9,7 @@
 .container {
     display: flex;
     justify-content: center;
-    background: #f3e5f5;
+    background: #f3cf7b;
 }
 
 .image-profile {
