@@ -1,5 +1,6 @@
 import React from "react";
 import "./cv.css";
+import { Container } from 'react-bootstrap';
 
 function CV() {
   const header = "CV  &  Technical Skills";
@@ -29,7 +30,9 @@ function CV() {
           </li>
         </ul>
       <p>{message}</p>
+      <Container>
       <iframe src="https://drive.google.com/file/d/1UW2P2EesEGoN6giyZk3Ia6yO8N0Xvy4C/preview" width="640" height="480" allow="autoplay"></iframe>
+      </Container>
       <h2><a href="https://drive.google.com/file/d/1UW2P2EesEGoN6giyZk3Ia6yO8N0Xvy4C/view?usp=sharing">
         OR DOWNLOAD A COPY HERE
       </a></h2>

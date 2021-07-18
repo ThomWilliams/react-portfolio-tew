@@ -1,6 +1,6 @@
 import React from 'react';
 import './portfolio.css';
-import { Row, Col, Card } from 'react-bootstrap';
+import { Row, Col, Card, Container } from 'react-bootstrap';
 
 
 export default function Cards(props) {
@@ -13,8 +13,10 @@ export default function Cards(props) {
   };
 
   return (
+
     <Row xs={1} md={1} lg={2} className="g-4">
   {Array.from({ length: 1 }).map((_, idx) => (
+        <Container>
     <Col>
       <Card className="card">
         <Card.Img variant="top" src={`${props.image}`} alt="Card cap" />
@@ -32,27 +34,11 @@ export default function Cards(props) {
         </Card.Body>
       </Card>
     </Col>
+    </Container>
   ))}
 </Row>
+
 
    
   );
 }
-
-// SEE GRID CARDS - https://react-bootstrap.github.io/components/cards/
-// <Row xs={1} md={2} className="g-4">
-//   {Array.from({ length: 4 }).map((_, idx) => (
-//     <Column>
-//       <Card>
-//         <Card.Img variant="top" src="holder.js/100px160" />
-//         <Card.Body>
-//           <Card.Title>Card title</Card.Title>
-//           <Card.Text>
-//             This is a longer card with supporting text below as a natural
-//             lead-in to additional content. This content is a little bit longer.
-//           </Card.Text>
-//         </Card.Body>
-//       </Card>
-//     </Col>
-//   ))}
-// </Row>
