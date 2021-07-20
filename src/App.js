@@ -12,6 +12,9 @@ import "./app.css";
 
 function App() {
   return (
+
+    <Router basename="/profile/">
+
     <div className="react-portfolio-tew">
 
       <Navigation />
@@ -36,12 +39,13 @@ function App() {
 
     
      <Router>
-      <Route path="/" component={About} />
+      <Route exact path="/" component={About} />
      </Router>
       
 
      <Footer />
     </div>
+    </Router>
   );
 }
 
