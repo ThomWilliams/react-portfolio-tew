@@ -1,6 +1,6 @@
 import React from "react";
 import "./cv.css";
-import { Container } from 'react-bootstrap';
+import { Container } from "react-bootstrap";
 
 function CV() {
   const header = "CV  &  Technical Skills";
@@ -10,32 +10,35 @@ function CV() {
     <section className="content-container">
       <h2>{header}</h2>
       <p>
-        Through the University of Manchester Coding Bootcamp and elsewhere in my
-        career, I have gained a variety of front-end and back-end skills, plus other relevant experience including:</p>
-        <ul>
-          <li>
-            <strong>Front-end:</strong> REACT, HTML, CSS, Javascript (JS), Markdown
-            (md), CSS Frameworks (Bootstrap, Bulma, Materialize), server- side
-          APIs, MERN.
-          </li>
-          <li>
-          <strong>Back-end:</strong> Node.Js, Express. js, NPM Packages, MySql,
-            MongoDB, Sequelize ORM.
-          </li>
+      Key technical skills gained at The University of Manchester Coding Bootcamp and elsewhere in Thom's career:
+      </p>
+      <ul>
+        <li>
+          <strong>Front-end:</strong> HTML, CSS, JavaScript (JS), React, Markdown, CSS Frameworks (Bootstrap, Bulma, Materialize), server-side APIs
 
-          <li>
-          <strong>Other: </strong>MS Office, Adobe Illustrator, Adobe Photoshop, Google docs /
-            slides / sheets etc, GitHub, Mailchimp, Fireworks, Stereonet and
-            editing software including Final Cut Pro.
-          </li>
-        </ul>
+        </li>
+        <li>
+          <strong>Back-end:</strong> MERN Stack, GraphQL, NPM Packages, MySQL, MongoDB, Sequelize ORM, Node.Js, Express.
+        </li>
+
+        <li>
+          <strong>Other: </strong>MS Office, Adobe Illustrator, Adobe Photoshop, Google docs / slides / sheets etc, GitHub, Mailchimp, Fireworks, Stereonet and editing software including Final Cut Pro.
+        </li>
+      </ul>
       <p>{message}</p>
       <Container>
-      <iframe src="https://drive.google.com/file/d/1UW2P2EesEGoN6giyZk3Ia6yO8N0Xvy4C/preview" width="640" height="480" allow="autoplay"></iframe>
+        <iframe
+          src="https://docs.google.com/document/d/e/2PACX-1vRMmri4SkloMaYodfA1SUeaSoGCpD5tUUD12LupSKJH1m6ufzMZoB9r7B6E4Ujt2w/pub?embedded=true"
+          width="640"
+          height="480"
+          allow="autoplay"
+        ></iframe>
       </Container>
-      <h2><a href="https://drive.google.com/file/d/1UW2P2EesEGoN6giyZk3Ia6yO8N0Xvy4C/view?usp=sharing">
-        OR DOWNLOAD A COPY HERE
-      </a></h2>
+      <h2>
+        <a href="https://drive.google.com/file/d/1UW2P2EesEGoN6giyZk3Ia6yO8N0Xvy4C/view?usp=sharing">
+          OR DOWNLOAD A COPY HERE
+        </a>
+      </h2>
     </section>
   );
 }

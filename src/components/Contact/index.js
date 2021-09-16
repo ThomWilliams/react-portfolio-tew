@@ -66,7 +66,8 @@ function Form() {
 
   return (
     <section className="content-container">
-      <h4>Contact Thom Williams via the following form:</h4>
+      <h4>Contact Thom Williams direct at: <a href="mailto: thomwilliams1990@gmail.com">thomwilliams1990@gmail.com</a></h4>
+      <h4>Or via the following form:</h4>
       <form className="form">
         <input
           value={firstName}

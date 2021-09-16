@@ -3,6 +3,7 @@ import './portfolio.css';
 import Card from './card';
 import codeQuiz from "../../components/images/coding-quiz.jpg";
 import poseIt from "../../components/images/pose-it.jpg";
+import castaway from "../../components/images/Castaway.jpg";
 import HammeredHorror from "../../components/images/hammered-horror.jpg";
 import workDay from "../../components/images/work-day-scheduler.jpg";
 import noteTaker from "../../components/images/note-taker.jpg";
@@ -11,8 +12,15 @@ import starTech from "../../components/images/star-tech.jpg";
 
 const portfolios = [
   {
-    name: 'Pose-It App',
-    description: 'A fashion sharing App',
+    name: 'Castaway',
+    description: 'A podcast selection app built with full MERN stack, with Stripe donation feature',
+    github:'https://github.com/ThomWilliams/castaway-app',
+    deployedLink:'https://podcastaway-app.herokuapp.com/',
+    image: castaway,
+  },
+  {
+    name: 'Pose-It',
+    description: 'Fashion App to build up a wardrobe of inspiration that users can filter to find outfits, view details, like and save them. They can also upload their own outfits.',
     github:'https://github.com/itsraulsanz/pose-it-app',
     deployedLink:'https://pose-it-app.herokuapp.com/',
     image: poseIt,
@@ -26,7 +34,7 @@ const portfolios = [
   },
   {
     name: 'Star Tech',
-    description: 'Star Trek themed MVC tech blog',
+    description: 'Star Tech is a CMS-style blog site. The app allows users to post blogs and comments, read blogs, edit blogs and delete blogs.',
     github:'https://github.com/ThomWilliams/mvc-tech-blog-tew',
     deployedLink:'https://serene-chamber-97267.herokuapp.com/',
     image: starTech,
@@ -44,13 +52,6 @@ const portfolios = [
     github:'https://github.com/ThomWilliams/work-day-scheduler-tew',
     deployedLink:'https://thomwilliams.github.io/work-day-scheduler-tew/',
     image: workDay,
-  },
-  {
-    name: 'Note Taker App',
-    description: 'An diary keeping reminder app',
-    github:'https://github.com/ThomWilliams/note-taker-tew',
-    deployedLink:'https://radiant-meadow-11834.herokuapp.com/',
-    image: noteTaker,
   },
   {
     name: 'Coding Quiz',

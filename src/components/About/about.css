@@ -49,3 +49,8 @@ h2 {
     line-height: 3vh;
 }
 
+.about-text a {
+    text-align: center;
+    font-size: 14px;
+    line-height: 3vh;
+}
