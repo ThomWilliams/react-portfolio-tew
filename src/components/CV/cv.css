@@ -12,24 +12,29 @@ h2 {
 p {
     font-size: 14px;
     font-family: Helvetica;
-    line-height: 5vh;
+    line-height: 1vh;
     text-align: left;
-    padding: 5px;
+    padding: 2px;
+    padding-top: 3px;
+    justify-content: center;
 }
 
 ul {
-    margin-top: 5px;
-    padding: 5px;
+    margin-top: 1px;
+    padding: 1px;
+    justify-content: center;
+
 }
 li {
     font-size: 14px;
     font-family: Helvetica;
     line-height: 4vh;
     padding: 5px;
+    justify-content: center;
 }
 
 a {
-    color: white;
+    color: blue;
     font-size: 1.3rem;
     text-decoration: none;
     margin: 5px;

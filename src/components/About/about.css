@@ -42,10 +42,18 @@ h2 {
   
 
 .about-text p {
-    text-align: center;
+    text-align: justify;
     font-size: 14px;
     margin-bottom: 0;
-    padding: 4px;
+    padding: 5px;
+    line-height: 4vh;
+}
+
+.about-text-top p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 0;
+    padding: 5px;
     line-height: 3vh;
 }
 

@@ -23,7 +23,10 @@ export default function Cards(props) {
         <Card.Body>
           <Card.Title>{props.name}</Card.Title>
           <Card.Text>
-          {props.description}
+          <p><strong>About: </strong>{props.description}</p>
+          </Card.Text>
+          <Card.Text>
+          <p><strong>Tech Used: </strong>{props.tech}</p>
           </Card.Text>
           <a href={`${props.deployedLink}`} className="btn btn-primary">
             Deployed Link 

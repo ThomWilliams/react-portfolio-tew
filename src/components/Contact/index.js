@@ -66,8 +66,8 @@ function Form() {
 
   return (
     <section className="content-container">
-      <h4>Contact Thom Williams direct at: <a href="mailto: thomwilliams1990@gmail.com">thomwilliams1990@gmail.com</a></h4>
-      <h4>Or via the following form:</h4>
+      <h4>Email Thom Williams direct at: <a href="mailto: thomwilliams1990@gmail.com">thomwilliams1990@gmail.com</a></h4>
+      <p>Or address your query via the following form:</p>
       <form className="form">
         <input
           value={firstName}
@@ -97,7 +97,7 @@ function Form() {
           type="text"
           placeholder="message"
         />
-        <button type="button" onClick={handleFormSubmit}>
+        <button type="button" className="btn btn-primary" onClick={handleFormSubmit}>
           Submit
         </button>
       </form>

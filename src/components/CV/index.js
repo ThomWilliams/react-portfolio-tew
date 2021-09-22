@@ -14,7 +14,7 @@ function CV() {
       </p>
       <ul>
         <li>
-          <strong>Front-end:</strong> HTML, CSS, JavaScript (JS), React, Markdown, CSS Frameworks (Bootstrap, Bulma, Materialize), server-side APIs
+          <strong>Front-end:</strong> HTML, CSS, JavaScript (JS), React, Markdown, CSS Frameworks (Bootstrap, Bulma, Materialize), third-party APIs
 
         </li>
         <li>
