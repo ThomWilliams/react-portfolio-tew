@@ -1,4 +1,4 @@
-# Homework 20: React Portfolio
+# Thom Williams React Portfolio
 
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
