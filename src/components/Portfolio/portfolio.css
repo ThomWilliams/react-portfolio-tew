@@ -1,15 +1,11 @@
 .content-container {
     min-height: calc(100vh - 34px);
-    background: #f3cf7b;
+    /* background: #f3cf7b; */
     padding: 20px;
     align-items: center;
 }
 
-h2 {
-    text-align: center;
-}
   
-
 h5 {
     text-align: center;
 }
@@ -23,8 +19,9 @@ h5 {
 .card {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     align-items: center;
+    padding: 5px;
   }
 
   .grid-item {

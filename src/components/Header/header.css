@@ -10,17 +10,23 @@
     margin: 0;
     padding-top: 75px;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 4rem;
     font-weight: bold;
     font-family: 'Bungee Shade', cursive;
   }
   
   .header h2 {
-    margin: 0;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: black;
     font-size: 1.5rem;
+    font-weight: bold;
     margin: 12px;
+    padding-bottom: 15px;
+  }
+
+ .header-break {
+    height: 5px;
+    background-image: linear-gradient(to right, rgb(36, 35, 35) , rgb(240, 240, 234));
   }
   

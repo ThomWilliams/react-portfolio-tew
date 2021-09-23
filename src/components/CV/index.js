@@ -4,11 +4,11 @@ import { Container } from "react-bootstrap";
 
 function CV() {
   const header = "CV  &  Technical Skills";
-  const message = "Please view a copy of Thom Williams CV here:";
+  const message = "Please view a copy of Thom Williams' CV here:";
 
   return (
     <section className="content-container">
-      <h2>{header}</h2>
+      <h1>{header}</h1>
       <p>
       Key technical skills gained at The University of Manchester Coding Bootcamp and elsewhere in Thom's career:
       </p>

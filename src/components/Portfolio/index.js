@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap';
 function Portfolio() {
   return (
     <section className="content-container">
-          <h2>Examples of Thom's Work:</h2>
+          <h1>Examples of Thom's Work:</h1>
       <Container fluid>
       <Display />
       </Container>

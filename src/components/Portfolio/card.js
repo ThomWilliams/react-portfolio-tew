@@ -21,17 +21,17 @@ export default function Cards(props) {
       <Card className="card">
         <Card.Img variant="top" src={`${props.image}`} alt="Card cap" />
         <Card.Body>
-          <Card.Title>{props.name}</Card.Title>
+          <Card.Title><h2>{props.name}</h2></Card.Title>
           <Card.Text>
           <p><strong>About: </strong>{props.description}</p>
           </Card.Text>
           <Card.Text>
           <p><strong>Tech Used: </strong>{props.tech}</p>
           </Card.Text>
-          <a href={`${props.deployedLink}`} className="btn btn-primary">
+          <a href={`${props.deployedLink}`} className="btn btn-warning">
             Deployed Link 
           </a>
-          <a href={`${props.github}`} className="btn btn-secondary">
+          <a href={`${props.github}`} className="btn btn-outline-dark">
             GitHub 
           </a>
         </Card.Body>

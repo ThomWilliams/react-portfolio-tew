@@ -7,7 +7,7 @@ function AboutMe() {
 
   return (
     <section className="content-container">
-      <h2>{header}</h2>
+      <h1>{header}</h1>
       <div className="container">
         <img
           className="image-profile"
@@ -15,13 +15,14 @@ function AboutMe() {
           alt="Profile Picture"
         />
       </div>
-
+      <div className="about-text-container">
       <div className="about-text">
         <div className="about-text-top">
-          <p >
-            This is the portfolio site of <strong> Thom Williams</strong>.{" "}
+          <p>
+          <strong> Welcome to the portfolio site of Thom Williams</strong>{" "}
           </p>
         </div>
+        <div>
         <p>
           Thom is a Full-stack web developer with an employment history in{" "}
           <strong> music industry-related PR, media and communications</strong>{" "}
@@ -60,10 +61,12 @@ function AboutMe() {
           he created during the final project of the Coding Bootcamp course.
         </p>
         <p>
-          Originally from <strong> Wales</strong>, Thom currently works
-          remotely from his home in <strong> Manchester</strong>, where he has
-          lived for over a decade.
+          Originally from <strong> Wales</strong>, Thom currently works remotely
+          from his home in <strong> Manchester</strong>, where he has lived for
+          over a decade.
         </p>
+        </div>
+      </div>
       </div>
     </section>
   );
