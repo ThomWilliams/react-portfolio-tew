@@ -11,9 +11,11 @@ h5 {
 }
 
 .card p {
-    line-height: 4vh;
+    line-height: 5vh;
     padding: 1px;
     margin: 3px;
+    color: black;
+    text-align: justify;
 }
 
 .card {
