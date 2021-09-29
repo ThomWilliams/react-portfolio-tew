@@ -70,7 +70,7 @@ thomwilliams1990@gmail.com
 
 ## Screenshots
 
-![Homepage](src/components/images/About-Me.png)
+![Homepage](src/components/images/About-me.png)
 
 ![Contact](src/components/images/contact.png)
 
