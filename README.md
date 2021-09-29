@@ -76,7 +76,7 @@ thomwilliams1990@gmail.com
 
 ![Portfolio](src/components/images/portfolio.png)
 
-![CV](src/components/images/cv.png)
+![CV](src/components/images/CV.png)
 
 ## Deployment / Links
 
