@@ -70,17 +70,17 @@ thomwilliams1990@gmail.com
 
 ## Screenshots
 
-![Homepage](src/components/images/homepage.png)
+![Homepage](src/components/images/About-Me.png)
 
 ![Contact](src/components/images/contact.png)
 
-![Portfolio](src/components/images/projects.png)
+![Portfolio](src/components/images/portfolio.png)
 
-![CV](src/components/images/CV.png)
+![CV](src/components/images/cv.png)
 
 ## Deployment / Links
 
-- Github Pages: [GitHub Pages](https://thomwilliams.github.io/react-portfolio-tew/)
+- Heroku: [GitHub Pages](https://thomwilliamsportfolio.herokuapp.com/)
 
 - Project Repository: [GitHub](https://github.com/ThomWilliams/react-portfolio-tew)
 
